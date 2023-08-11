@@ -1,0 +1,9 @@
+{"name": "cache-admin", "subscription_id": "fe4a3fcb-2888-4963-bf3c-81083cd04390", "rg": "mygroup_2", "msi_rg": "mygroup_3", "resource": "capmint-mailer", "type": "Azure_Logic_App"}
+{"name": "db-contributor", "subscription_id": "fe4a3fcb-2888-4963-bf3c-81083cd04390", "rg": "mygroup_2", "msi_rg": "mygroup_1", "resource": "capmint-mailer", "type": "Azure_Logic_App"}
+{"name": "prod-owner", "subscription_id": "fe4a3fcb-2888-4963-bf3c-81083cd04390", "rg": "mygroup_1", "msi_rg": "mygroup_3", "resource": "aneared-directory", "type": "Azure_Logic_App"}
+{"name": "kafka-admin", "subscription_id": "fe4a3fcb-2888-4963-bf3c-81083cd04390", "rg": "mygroup_2", "msi_rg": "mygroup_1", "resource": "capmint-mailer", "type": "Azure_Logic_App"}
+{"name": "mysql-reader", "subscription_id": "fe4a3fcb-2888-4963-bf3c-81083cd04390", "rg": "mygroup_1", "msi_rg": "mygroup_1", "resource": "aneared-directory", "type": "Azure_Logic_App"}
+{"name": "nginx-finance", "subscription_id": "fe4a3fcb-2888-4963-bf3c-81083cd04390", "rg": "mygroup_2", "msi_rg": "mygroup_3", "resource": "capmint-mailer", "type": "Azure_Logic_App"}
+{"name": "postgresql-owner", "subscription_id": "fe4a3fcb-2888-4963-bf3c-81083cd04390", "rg": "mygroup_2", "msi_rg": "mygroup_1", "resource": "capmint-mailer", "type": "Azure_Logic_App"}
+{"name": "dev-owner", "subscription_id": "fe4a3fcb-2888-4963-bf3c-81083cd04390", "rg": "mygroup_2", "msi_rg": "mygroup_3", "resource": "eneugh-db", "type": "Azure_Logic_App"}
+{"name": "logging-contributor", "subscription_id": "fe4a3fcb-2888-4963-bf3c-81083cd04390", "rg": "mygroup_2", "msi_rg": "mygroup_2", "resource": "eneugh-db", "type": "Azure_Logic_App"}

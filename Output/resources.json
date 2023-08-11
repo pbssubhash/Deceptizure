@@ -1,0 +1,14 @@
+{"service": "Azure_KeyVault", "name": "poniard-logger", "res_group": "mygroup_2", "location": "eastus", "properties": {}}
+{"service": "Azure_Function", "name": "taipans-cache", "res_group": "mygroup_1", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "taipanscachebaneful"}}
+{"service": "Azure_Logic_App", "name": "capmint-mailer", "res_group": "mygroup_2", "location": "eastus", "properties": {}}
+{"service": "Azure_Function", "name": "tramps-mailer", "res_group": "mygroup_3", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "trampsmailerzaramo"}}
+{"service": "Azure_Storage", "name": "gadeancompute", "res_group": "mygroup_1", "location": "eastus", "properties": {"SkuName": "Standard_LRS"}}
+{"service": "Azure_KeyVault", "name": "unpurse-server", "res_group": "mygroup_3", "location": "eastus", "properties": {}}
+{"service": "Azure_Function", "name": "dumose-loadbalancer", "res_group": "mygroup_3", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "dumoseloadbalancerswi"}}
+{"service": "Azure_Logic_App", "name": "aneared-directory", "res_group": "mygroup_1", "location": "eastus", "properties": {}}
+{"service": "Azure_Function", "name": "through-networking", "res_group": "mygroup_3", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "throughnetworkingoutd"}}
+{"service": "Azure_Logic_App", "name": "eneugh-db", "res_group": "mygroup_2", "location": "eastus", "properties": {}}
+{"service": "Azure_KeyVault", "name": "headset-directory", "res_group": "mygroup_2", "location": "eastus", "properties": {}}
+{"service": "Azure_Storage", "name": "zeburrobackup", "res_group": "mygroup_3", "location": "eastus", "properties": {"SkuName": "Standard_LRS"}}
+{"service": "Azure_Function", "name": "addends-web", "res_group": "mygroup_2", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "addendswebsavage"}}
+{"service": "Azure_Logic_App", "name": "playas-server", "res_group": "mygroup_2", "location": "eastus", "properties": {}}

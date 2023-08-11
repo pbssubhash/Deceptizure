@@ -1,0 +1,12 @@
+{"name": "cache-admin", "msi_rg": "mygroup_3", "rg": "mygroup_2", "resource": "eneugh-db", "role": "Contributor", "type": "msi"}
+{"name": "db-contributor", "msi_rg": "mygroup_1", "rg": "mygroup_3", "resource": "dumose-loadbalancer", "role": "Contributor", "type": "msi"}
+{"name": "prod-owner", "msi_rg": "mygroup_3", "rg": "mygroup_2", "resource": "addends-web", "role": "Contributor", "type": "msi"}
+{"name": "kafka-admin", "msi_rg": "mygroup_1", "rg": "mygroup_2", "resource": "playas-server", "role": "Reader", "type": "msi"}
+{"name": "mysql-reader", "msi_rg": "mygroup_1", "rg": "mygroup_2", "resource": "poniard-logger", "role": "User Access Administrator", "type": "msi"}
+{"name": "mysql-reader", "msi_rg": "mygroup_1", "rg": "mygroup_3", "resource": "through-networking", "role": "Contributor", "type": "msi"}
+{"name": "nginx-finance", "msi_rg": "mygroup_3", "rg": "mygroup_2", "resource": "playas-server", "role": "Contributor", "type": "msi"}
+{"name": "nginx-finance", "msi_rg": "mygroup_3", "rg": "mygroup_2", "resource": "addends-web", "role": "Owner", "type": "msi"}
+{"name": "dev-owner", "msi_rg": "mygroup_3", "rg": "mygroup_3", "resource": "unpurse-server", "role": "Reader", "type": "msi"}
+{"name": "dev-owner", "msi_rg": "mygroup_3", "rg": "mygroup_1", "resource": "taipans-cache", "role": "User Access Administrator", "type": "msi"}
+{"name": "logging-contributor", "msi_rg": "mygroup_2", "rg": "mygroup_2", "resource": "capmint-mailer", "role": "Owner", "type": "msi"}
+{"name": "logging-contributor", "msi_rg": "mygroup_2", "rg": "mygroup_2", "resource": "eneugh-db", "role": "Owner", "type": "msi"}

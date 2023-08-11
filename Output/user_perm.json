@@ -1,0 +1,21 @@
+{"user": "derek.k@zer0p1k4chugmail.onmicrosoft.com", "role": "User Access Administrator", "rg": "mygroup_2", "resource": "headset-directory", "type": "Azure_KeyVault"}
+{"user": "william.p@zer0p1k4chugmail.onmicrosoft.com", "role": "Reader", "rg": "mygroup_2", "resource": "poniard-logger", "type": "Azure_KeyVault"}
+{"user": "william.p@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_2", "resource": "headset-directory", "type": "Azure_KeyVault"}
+{"user": "kimberly.t@zer0p1k4chugmail.onmicrosoft.com", "role": "User Access Administrator", "rg": "mygroup_3", "resource": "tramps-mailer", "type": "Azure_Function"}
+{"user": "kimberly.s@zer0p1k4chugmail.onmicrosoft.com", "role": "Owner", "rg": "mygroup_2", "resource": "poniard-logger", "type": "Azure_KeyVault"}
+{"user": "kimberly.s@zer0p1k4chugmail.onmicrosoft.com", "role": "Reader", "rg": "mygroup_2", "resource": "headset-directory", "type": "Azure_KeyVault"}
+{"user": "kimberly.s@zer0p1k4chugmail.onmicrosoft.com", "role": "User Access Administrator", "rg": "mygroup_3", "resource": "dumose-loadbalancer", "type": "Azure_Function"}
+{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "Owner", "rg": "mygroup_3", "resource": "unpurse-server", "type": "Azure_KeyVault"}
+{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "Owner", "rg": "mygroup_2", "resource": "poniard-logger", "type": "Azure_KeyVault"}
+{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "User Access Administrator", "rg": "mygroup_3", "resource": "unpurse-server", "type": "Azure_KeyVault"}
+{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_1", "resource": "taipans-cache", "type": "Azure_Function"}
+{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "User Access Administrator", "rg": "mygroup_3", "resource": "dumose-loadbalancer", "type": "Azure_Function"}
+{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_3", "resource": "unpurse-server", "type": "Azure_KeyVault"}
+{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_2", "resource": "capmint-mailer", "type": "Azure_Logic_App"}
+{"user": "daniel.n@zer0p1k4chugmail.onmicrosoft.com", "role": "Reader", "rg": "mygroup_2", "resource": "headset-directory", "type": "Azure_KeyVault"}
+{"user": "ariana.w@zer0p1k4chugmail.onmicrosoft.com", "role": "Reader", "rg": "mygroup_2", "resource": "playas-server", "type": "Azure_Logic_App"}
+{"user": "ariana.w@zer0p1k4chugmail.onmicrosoft.com", "role": "Owner", "rg": "mygroup_2", "resource": "poniard-logger", "type": "Azure_KeyVault"}
+{"user": "ariana.w@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_2", "resource": "eneugh-db", "type": "Azure_Logic_App"}
+{"user": "ariana.w@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_2", "resource": "addends-web", "type": "Azure_Function"}
+{"user": "mario.l@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_1", "resource": "taipans-cache", "type": "Azure_Function"}
+{"user": "mario.l@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_2", "resource": "eneugh-db", "type": "Azure_Logic_App"}

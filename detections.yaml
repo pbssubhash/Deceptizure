@@ -1,0 +1,41 @@
+# detections.yaml
+
+- alertTitle: Key Vault Access 
+  alertDescription: This alert is triggered when an adversary accesses decoy key-vaults in an attempt to access sensitive information.
+  query: >
+      AzureDiagnostics 
+      | where ResourceType == "VAULTS" and Resource has_any({KeyVault_Name})
+      | extend fullMessage = pack_all()
+      | where fullMessage has_any({USERS})
+      | summarize count() by CallerIPAddress, ResultType
+  mitreAttack: None
+  traigeInstructions: Assume the identity in `identity_claim_unique_name_s` field is compromised by the adversary and shift left by analyzing the login activity of that user.
+
+- alertTitle: Failed Login Attempts
+  alertDescription: This alert is triggered when an adversary attempts to access a decoy account but is unsuccessful to do so.
+  query: >
+      SigninLogs
+      | where ResultType == 50126
+      | where UserPrincipalName has_any({USERS})
+      | summarize count()
+  mitreAttack: None
+  traigeInstructions: Check the login and other activity with this IP. Assume that it's an adverserial activity.
+
+- alertTitle: Successful Login Attempts
+  alertDescription: This alert is triggered when an adversary attempts to access a decoy account but is unsuccessful to do so.
+  query: >
+      SigninLogs
+      | where UserPrincipalName has_any({USERS})
+      | summarize count()
+  mitreAttack: None
+  traigeInstructions: Check the login and other activity with this IP. Assume that it's an adverserial activity.
+
+- alertTitle: Blob Access
+  alertDescription: This alert is triggered when an adversary attempts to access a decoy account but is unsuccessful to do so.
+  query: >
+      StorageBlobLogs
+      | extend fullMessage = pack_all()
+      | where fullMessage has_any({USERS})
+      | summarize count()
+  mitreAttack: None
+  traigeInstructions: Check the login and other activity with this IP. Assume that it's an adverserial activity.

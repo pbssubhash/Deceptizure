@@ -1,0 +1,6 @@
+azure-mgmt-storage
+azure-identity
+azure-mgmt-kusto
+azure-mgmt-keyvault
+Faker
+azure-monitor-ingestion

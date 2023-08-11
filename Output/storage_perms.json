@@ -1,0 +1,12 @@
+{"user": "daniel.n@zer0p1k4chugmail.onmicrosoft.com", "perm": "Owner", "name": "gadeancompute", "type": "user", "rg": "", "sa_rg": "mygroup_1"}
+{"user": "cache-admin", "perm": "Storage Blob Data Reader", "name": "zeburrobackup", "type": "msi", "rg": "mygroup_3", "sa_rg": "mygroup_3"}
+{"user": "kimberly.s@zer0p1k4chugmail.onmicrosoft.com", "perm": "Storage Blob Data Reader", "name": "zeburrobackup", "type": "user", "rg": "", "sa_rg": "mygroup_3"}
+{"user": "mysql-reader", "perm": "Contributor", "name": "gadeancompute", "type": "msi", "rg": "mygroup_1", "sa_rg": "mygroup_1"}
+{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "perm": "Reader and Data Access", "name": "gadeancompute", "type": "user", "rg": "", "sa_rg": "mygroup_1"}
+{"user": "kafka-admin", "perm": "Reader and Data Access", "name": "zeburrobackup", "type": "msi", "rg": "mygroup_1", "sa_rg": "mygroup_3"}
+{"user": "daniel.n@zer0p1k4chugmail.onmicrosoft.com", "perm": "Storage Blob Data Reader", "name": "zeburrobackup", "type": "user", "rg": "", "sa_rg": "mygroup_3"}
+{"user": "db-contributor", "perm": "Owner", "name": "zeburrobackup", "type": "msi", "rg": "mygroup_1", "sa_rg": "mygroup_3"}
+{"user": "amy.r@zer0p1k4chugmail.onmicrosoft.com", "perm": "Storage Blob Data Reader", "name": "zeburrobackup", "type": "user", "rg": "", "sa_rg": "mygroup_3"}
+{"user": "dev-owner", "perm": "Owner", "name": "gadeancompute", "type": "msi", "rg": "mygroup_3", "sa_rg": "mygroup_1"}
+{"user": "william.p@zer0p1k4chugmail.onmicrosoft.com", "perm": "Storage Blob Data Reader", "name": "zeburrobackup", "type": "user", "rg": "", "sa_rg": "mygroup_3"}
+{"user": "logging-contributor", "perm": "Reader", "name": "gadeancompute", "type": "msi", "rg": "mygroup_2", "sa_rg": "mygroup_1"}
