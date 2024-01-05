@@ -39,22 +39,59 @@ The solution currently supports the following:
 |`--domain` | YES | The domain associated with your tenant.|
 |`--passFile` | NO |  The weak passwords file that you want to use for creating weak password users.|
 |`--outputFolder` | NO | Folder for storing interim deceptive objects in JSON format. |
-|`--mode` | YES | This controls the number of levels of deceptive objects to create. Supported values: simple, balanced, godmode|
+|`--mode` | NO | This controls the number of levels of deceptive objects to create. Supported values: simple, balanced, godmode|
 |`--userPattern` | NO, but recommended for highly deceptive objects. | It's a regex string to create usernames. Using variables such as firstname, fname, lastname and lname, you can give pattern of username to create. Eg. {first_name}.{lname}@{domain}|
 |`--msiPattern` | NO, but recommended for highly deceptive objects.|2 variables: name and key are available to customize. These keys are randomly drawn and are dependent on Industry. Eg. There are certain names and keys for certain Industries |
 |`--resourceNamePattern` |NO, but recommended for highly deceptive objects. | 2 variables: name and purpose are available to customize. These keys are randomly drawn and are dependent on Industry. Eg. There are certain names and keys for certain Industries|
 
+Sample Command Line: 
+```python
+python3 create_decoy.py --subscriptionId XXX --industry IT --domain contoso.com
+```
+
 Based on the given inputs, the following JSON deception definition files are created.
 
-| Deception Definition         | Description   | # Sample File |
-|--------------|-----------|------------|
-| User | | Sample User File: [Users.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/user.json)|
-| User permissions | | Sample User Permissions File [user_perm.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/user_perm.json)|
-|MSI | | Sample MSI File [msi.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/msi.json)|
-| MSI Permissions| | Sample MSI Permission files [msi_perm.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/msi_perm.json)|
-| MSI attachments | | Sample MSI attachment files [msi_attach.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/attach_msi.json)|
-|Resources | | Sample resources file [resources.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/resources.json)|
-| Storage Account Permissions| | Sample storage account file [storage_perms.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/storage_perms.json)|
-| Keyvault permissions| | Sample Keyvault permission files [kv_perms.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/kv_perms.json)|
+| Deception Definition | # Sample File |
+|--------------|------------|
+| User | Sample User File: [Users.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/user.json)|
+| User permissions | Sample User Permissions File [user_perm.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/user_perm.json)|
+|MSI |Sample MSI File [msi.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/msi.json)|
+| MSI Permissions| Sample MSI Permission files [msi_perm.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/msi_perm.json)|
+| MSI attachments |Sample MSI attachment files [msi_attach.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/attach_msi.json)|
+|Resources | Sample resources file [resources.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/resources.json)|
+| Storage Account Permissions| Sample storage account file [storage_perms.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/storage_perms.json)|
+| Keyvault permissions| Sample Keyvault permission files [kv_perms.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/kv_perms.json)|
 
-2. 
+2. The actual deceptive objects can be created on Azure using `res.ps1`
+The objects can be pushed into Azure portal by using the PowerShell file:  res.ps1 using the command below.
+```powershell
+powershell.exe -c res.ps1 -Mode Deploy -OutputFolder Output
+```
+
+The objects can be removed (once, no longer required or when the identity is burnt) using the same file.
+
+```
+powershell.exe -c res.ps1 -Mode Remove -OutputFolder 
+```
+
+3. Create Logging:
+Logging for the created deceptive users can be created by running the `Create-Logging.ps1` file. This solution leverages Azure Log monitor for enabling logging. Please refer to the pricing before proceeding.
+
+The following command can be used to push the logs to a new log monitoring workspace. An existing workspace can also be leveraged alternatively.
+
+```powershell
+powershell.exe -c Create-Logging.ps1 -Mode Start -OutputFolder Output -SubscriptionId XXX -LAResourceGroup monitordecoy -LALocation westus2 -WorkSpaceName decoyworkspace
+```
+
+4. Deploy alerts for any decoy activity:
+There are 5 detection templates available. [here](https://github.com/pbssubhash/Deceptizure/blob/main/detections.yaml). The file `deploy_alerts.py` can be used to deploy these alert rules.
+Sample command:
+```python
+python3 deploy_alerts.py --workspaceId=XXX -OutputFolder Output
+```
+
+## Usecases:
+This solution can be used for the following usecases:
+- Create and deploy deception on Azure to deceive attackers.
+- Create labs for testing Azure exploitation skills (or) for students.
+   
