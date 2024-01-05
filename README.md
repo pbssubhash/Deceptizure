@@ -18,6 +18,16 @@ The following are required for Deceptizure to work:
   `pip3 install -r requirements.txt`
 - Enable PowerShell (if disabled).
 
+## What types of resources are created.
+The solution currently supports the following:
+- Deceptive Users: Users with real names, weak passwords (the user can specify the weak password list that they want to use). Users can also define format of the user name.
+- Deceptive MSIs: Managed Identities with look-alike names are created. The names are picked from a pool of names related to the Industry (that user has selected) and the format that the user has specified.
+- Deceptive Resources
+    - Keyvault
+    - Logic Apps
+    - Storage Account
+- Deceptive permissions from Users and MSIs onto the newly created deceptive users: What good is a deceptive solution which doesn't create fake attack paths? This solution creates complex yet fake attack paths from users and MSIs to the newly created resources.
+
 ## How does it work?
 
 1. The user can create deceptive objects using `create_decoy.py`. There are several options available for customizing deceptive objects.
@@ -34,6 +44,17 @@ The following are required for Deceptizure to work:
 |`--msiPattern` | NO, but recommended for highly deceptive objects.|2 variables: name and key are available to customize. These keys are randomly drawn and are dependent on Industry. Eg. There are certain names and keys for certain Industries |
 |`--resourceNamePattern` |NO, but recommended for highly deceptive objects. | 2 variables: name and purpose are available to customize. These keys are randomly drawn and are dependent on Industry. Eg. There are certain names and keys for certain Industries|
 
+Based on the given inputs, the following JSON deception definition files are created.
 
+| Deception Definition         | Description   | # Sample File |
+|--------------|-----------|------------|
+| User | | Sample User File: [Users.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/user.json)|
+| User permissions | | Sample User Permissions File [user_perm.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/user_perm.json)|
+|MSI | | Sample MSI File [msi.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/msi.json)|
+| MSI Permissions| | Sample MSI Permission files [msi_perm.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/msi_perm.json)|
+| MSI attachments | | Sample MSI attachment files [msi_attach.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/attach_msi.json)|
+|Resources | | Sample resources file [resources.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/resources.json)|
+| Storage Account Permissions| | Sample storage account file [storage_perms.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/storage_perms.json)|
+| Keyvault permissions| | Sample Keyvault permission files [kv_perms.json](https://github.com/pbssubhash/Deceptizure/blob/main/Output/kv_perms.json)|
 
 2. 
