@@ -1,0 +1,1 @@
+Get-AzUserAssignedIdentity | Select-Object Name -ExpandProperty Name

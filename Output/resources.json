@@ -1,14 +1,13 @@
-{"service": "Azure_KeyVault", "name": "poniard-logger", "res_group": "mygroup_2", "location": "eastus", "properties": {}}
-{"service": "Azure_Function", "name": "taipans-cache", "res_group": "mygroup_1", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "taipanscachebaneful"}}
-{"service": "Azure_Logic_App", "name": "capmint-mailer", "res_group": "mygroup_2", "location": "eastus", "properties": {}}
-{"service": "Azure_Function", "name": "tramps-mailer", "res_group": "mygroup_3", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "trampsmailerzaramo"}}
-{"service": "Azure_Storage", "name": "gadeancompute", "res_group": "mygroup_1", "location": "eastus", "properties": {"SkuName": "Standard_LRS"}}
-{"service": "Azure_KeyVault", "name": "unpurse-server", "res_group": "mygroup_3", "location": "eastus", "properties": {}}
-{"service": "Azure_Function", "name": "dumose-loadbalancer", "res_group": "mygroup_3", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "dumoseloadbalancerswi"}}
-{"service": "Azure_Logic_App", "name": "aneared-directory", "res_group": "mygroup_1", "location": "eastus", "properties": {}}
-{"service": "Azure_Function", "name": "through-networking", "res_group": "mygroup_3", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "throughnetworkingoutd"}}
-{"service": "Azure_Logic_App", "name": "eneugh-db", "res_group": "mygroup_2", "location": "eastus", "properties": {}}
-{"service": "Azure_KeyVault", "name": "headset-directory", "res_group": "mygroup_2", "location": "eastus", "properties": {}}
-{"service": "Azure_Storage", "name": "zeburrobackup", "res_group": "mygroup_3", "location": "eastus", "properties": {"SkuName": "Standard_LRS"}}
-{"service": "Azure_Function", "name": "addends-web", "res_group": "mygroup_2", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "addendswebsavage"}}
-{"service": "Azure_Logic_App", "name": "playas-server", "res_group": "mygroup_2", "location": "eastus", "properties": {}}
+{"service": "Azure_KeyVault", "name": "soosoo-backup", "res_group": "TI", "location": "eastus", "properties": {}}
+{"service": "Azure_Logic_App", "name": "satara-compute", "res_group": "multi-purpose", "location": "eastus", "properties": {}}
+{"service": "Azure_Function", "name": "moolvee-logger", "res_group": "detect-lab-preset", "location": "northcentralus", "properties": {"Runtime": "Python", "StorageAccountName": "moolveeloggerdjehad"}}
+{"service": "Azure_KeyVault", "name": "sorners-directory", "res_group": "container-lab_group-null_hyd", "location": "eastus", "properties": {}}
+{"service": "Azure_KeyVault", "name": "aurifex-billing", "res_group": "detect-lab-preset", "location": "northcentralus", "properties": {}}
+{"service": "Azure_Storage", "name": "renigsserver", "res_group": "azureappinsightss_group-9ed6", "location": "eastus", "properties": {"SkuName": "Standard_LRS"}}
+{"service": "Azure_Storage", "name": "syncomsdirectory", "res_group": "multi-purpose", "location": "eastus", "properties": {"SkuName": "Standard_LRS"}}
+{"service": "Azure_Function", "name": "squibs-billing", "res_group": "multi-purpose", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "squibsbillingdoruck"}}
+{"service": "Azure_Function", "name": "whimble-func", "res_group": "DefaultResourceGroup-EUS", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "whimblefuncteleran"}}
+{"service": "Azure_Function", "name": "schemed-web", "res_group": "DefaultResourceGroup-EUS", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "schemedwebtwibils"}}
+{"service": "Azure_Function", "name": "thirdly-mailer", "res_group": "azureappinsightss_group", "location": "eastus", "properties": {"Runtime": "Python", "StorageAccountName": "thirdlymailerwicken"}}
+{"service": "Azure_Storage", "name": "seisinsbackup", "res_group": "detect-lab-preset", "location": "northcentralus", "properties": {"SkuName": "Standard_LRS"}}
+{"service": "Azure_KeyVault", "name": "ranere-db", "res_group": "NetworkWatcherRG", "location": "centralindia", "properties": {}}

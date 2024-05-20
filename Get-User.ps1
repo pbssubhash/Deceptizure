@@ -1,0 +1,1 @@
+Get-AzADUser | Select-Object UserPrincipalName -ExpandProperty UserPrincipalName

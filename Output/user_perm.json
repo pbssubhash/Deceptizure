@@ -1,21 +1,32 @@
-{"user": "derek.k@zer0p1k4chugmail.onmicrosoft.com", "role": "User Access Administrator", "rg": "mygroup_2", "resource": "headset-directory", "type": "Azure_KeyVault"}
-{"user": "william.p@zer0p1k4chugmail.onmicrosoft.com", "role": "Reader", "rg": "mygroup_2", "resource": "poniard-logger", "type": "Azure_KeyVault"}
-{"user": "william.p@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_2", "resource": "headset-directory", "type": "Azure_KeyVault"}
-{"user": "kimberly.t@zer0p1k4chugmail.onmicrosoft.com", "role": "User Access Administrator", "rg": "mygroup_3", "resource": "tramps-mailer", "type": "Azure_Function"}
-{"user": "kimberly.s@zer0p1k4chugmail.onmicrosoft.com", "role": "Owner", "rg": "mygroup_2", "resource": "poniard-logger", "type": "Azure_KeyVault"}
-{"user": "kimberly.s@zer0p1k4chugmail.onmicrosoft.com", "role": "Reader", "rg": "mygroup_2", "resource": "headset-directory", "type": "Azure_KeyVault"}
-{"user": "kimberly.s@zer0p1k4chugmail.onmicrosoft.com", "role": "User Access Administrator", "rg": "mygroup_3", "resource": "dumose-loadbalancer", "type": "Azure_Function"}
-{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "Owner", "rg": "mygroup_3", "resource": "unpurse-server", "type": "Azure_KeyVault"}
-{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "Owner", "rg": "mygroup_2", "resource": "poniard-logger", "type": "Azure_KeyVault"}
-{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "User Access Administrator", "rg": "mygroup_3", "resource": "unpurse-server", "type": "Azure_KeyVault"}
-{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_1", "resource": "taipans-cache", "type": "Azure_Function"}
-{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "User Access Administrator", "rg": "mygroup_3", "resource": "dumose-loadbalancer", "type": "Azure_Function"}
-{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_3", "resource": "unpurse-server", "type": "Azure_KeyVault"}
-{"user": "judy.v@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_2", "resource": "capmint-mailer", "type": "Azure_Logic_App"}
-{"user": "daniel.n@zer0p1k4chugmail.onmicrosoft.com", "role": "Reader", "rg": "mygroup_2", "resource": "headset-directory", "type": "Azure_KeyVault"}
-{"user": "ariana.w@zer0p1k4chugmail.onmicrosoft.com", "role": "Reader", "rg": "mygroup_2", "resource": "playas-server", "type": "Azure_Logic_App"}
-{"user": "ariana.w@zer0p1k4chugmail.onmicrosoft.com", "role": "Owner", "rg": "mygroup_2", "resource": "poniard-logger", "type": "Azure_KeyVault"}
-{"user": "ariana.w@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_2", "resource": "eneugh-db", "type": "Azure_Logic_App"}
-{"user": "ariana.w@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_2", "resource": "addends-web", "type": "Azure_Function"}
-{"user": "mario.l@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_1", "resource": "taipans-cache", "type": "Azure_Function"}
-{"user": "mario.l@zer0p1k4chugmail.onmicrosoft.com", "role": "Contributor", "rg": "mygroup_2", "resource": "eneugh-db", "type": "Azure_Logic_App"}
+{"user": "amanda.m@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "detect-lab-preset", "resource": "seisinsbackup", "type": "Azure_Storage"}
+{"user": "amanda.m@subhashpopurioutlook.onmicrosoft.com", "role": "Reader", "rg": "detect-lab-preset", "resource": "seisinsbackup", "type": "Azure_Storage"}
+{"user": "lisa.h@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "container-lab_group-null_hyd", "resource": "sorners-directory", "type": "Azure_KeyVault"}
+{"user": "lisa.h@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "multi-purpose", "resource": "satara-compute", "type": "Azure_Logic_App"}
+{"user": "lisa.h@subhashpopurioutlook.onmicrosoft.com", "role": "Owner", "rg": "TI", "resource": "soosoo-backup", "type": "Azure_KeyVault"}
+{"user": "lisa.h@subhashpopurioutlook.onmicrosoft.com", "role": "Reader", "rg": "detect-lab-preset", "resource": "aurifex-billing", "type": "Azure_KeyVault"}
+{"user": "oscar.p@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "multi-purpose", "resource": "syncomsdirectory", "type": "Azure_Storage"}
+{"user": "felicia.o@subhashpopurioutlook.onmicrosoft.com", "role": "User Access Administrator", "rg": "DefaultResourceGroup-EUS", "resource": "whimble-func", "type": "Azure_Function"}
+{"user": "felicia.o@subhashpopurioutlook.onmicrosoft.com", "role": "Reader", "rg": "DefaultResourceGroup-EUS", "resource": "schemed-web", "type": "Azure_Function"}
+{"user": "travis.p@subhashpopurioutlook.onmicrosoft.com", "role": "Reader", "rg": "container-lab_group-null_hyd", "resource": "sorners-directory", "type": "Azure_KeyVault"}
+{"user": "travis.p@subhashpopurioutlook.onmicrosoft.com", "role": "Reader", "rg": "azureappinsightss_group", "resource": "thirdly-mailer", "type": "Azure_Function"}
+{"user": "travis.p@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "multi-purpose", "resource": "squibs-billing", "type": "Azure_Function"}
+{"user": "travis.p@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "detect-lab-preset", "resource": "seisinsbackup", "type": "Azure_Storage"}
+{"user": "travis.p@subhashpopurioutlook.onmicrosoft.com", "role": "Owner", "rg": "azureappinsightss_group", "resource": "thirdly-mailer", "type": "Azure_Function"}
+{"user": "travis.p@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "TI", "resource": "soosoo-backup", "type": "Azure_KeyVault"}
+{"user": "norman.y@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "azureappinsightss_group", "resource": "thirdly-mailer", "type": "Azure_Function"}
+{"user": "norman.y@subhashpopurioutlook.onmicrosoft.com", "role": "Owner", "rg": "detect-lab-preset", "resource": "seisinsbackup", "type": "Azure_Storage"}
+{"user": "norman.y@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "NetworkWatcherRG", "resource": "ranere-db", "type": "Azure_KeyVault"}
+{"user": "norman.y@subhashpopurioutlook.onmicrosoft.com", "role": "Reader", "rg": "container-lab_group-null_hyd", "resource": "sorners-directory", "type": "Azure_KeyVault"}
+{"user": "norman.y@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "TI", "resource": "soosoo-backup", "type": "Azure_KeyVault"}
+{"user": "norman.y@subhashpopurioutlook.onmicrosoft.com", "role": "Owner", "rg": "azureappinsightss_group", "resource": "thirdly-mailer", "type": "Azure_Function"}
+{"user": "norman.y@subhashpopurioutlook.onmicrosoft.com", "role": "Reader", "rg": "detect-lab-preset", "resource": "seisinsbackup", "type": "Azure_Storage"}
+{"user": "carol.d@subhashpopurioutlook.onmicrosoft.com", "role": "Reader", "rg": "container-lab_group-null_hyd", "resource": "sorners-directory", "type": "Azure_KeyVault"}
+{"user": "carol.d@subhashpopurioutlook.onmicrosoft.com", "role": "Reader", "rg": "DefaultResourceGroup-EUS", "resource": "whimble-func", "type": "Azure_Function"}
+{"user": "aaron.b@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "TI", "resource": "soosoo-backup", "type": "Azure_KeyVault"}
+{"user": "aaron.b@subhashpopurioutlook.onmicrosoft.com", "role": "User Access Administrator", "rg": "azureappinsightss_group", "resource": "thirdly-mailer", "type": "Azure_Function"}
+{"user": "aaron.b@subhashpopurioutlook.onmicrosoft.com", "role": "User Access Administrator", "rg": "detect-lab-preset", "resource": "aurifex-billing", "type": "Azure_KeyVault"}
+{"user": "ariana.d@subhashpopurioutlook.onmicrosoft.com", "role": "User Access Administrator", "rg": "DefaultResourceGroup-EUS", "resource": "schemed-web", "type": "Azure_Function"}
+{"user": "ariana.d@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "container-lab_group-null_hyd", "resource": "sorners-directory", "type": "Azure_KeyVault"}
+{"user": "michael.h@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "DefaultResourceGroup-EUS", "resource": "whimble-func", "type": "Azure_Function"}
+{"user": "michael.h@subhashpopurioutlook.onmicrosoft.com", "role": "Contributor", "rg": "detect-lab-preset", "resource": "moolvee-logger", "type": "Azure_Function"}
+{"user": "michael.h@subhashpopurioutlook.onmicrosoft.com", "role": "User Access Administrator", "rg": "azureappinsightss_group-9ed6", "resource": "renigsserver", "type": "Azure_Storage"}

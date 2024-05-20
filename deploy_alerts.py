@@ -92,7 +92,11 @@ def createAlert(detect, workspace_id,token):
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42'
   }
   response = requests.request("PUT", url, headers=headers, data=payload)
-  print(response.text)
+  # print(response.text)
+  print("##### "+detect['alertTitle'])
+  print(query)
+  print("\n\n")
+
 credential = AzureCliCredential()
 for i in detections:
     createAlert(i,workspace_id,credential.get_token("https://management.azure.com").token)

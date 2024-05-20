@@ -1,12 +1,14 @@
-{"name": "cache-admin", "msi_rg": "mygroup_3", "rg": "mygroup_2", "resource": "eneugh-db", "role": "Contributor", "type": "msi"}
-{"name": "db-contributor", "msi_rg": "mygroup_1", "rg": "mygroup_3", "resource": "dumose-loadbalancer", "role": "Contributor", "type": "msi"}
-{"name": "prod-owner", "msi_rg": "mygroup_3", "rg": "mygroup_2", "resource": "addends-web", "role": "Contributor", "type": "msi"}
-{"name": "kafka-admin", "msi_rg": "mygroup_1", "rg": "mygroup_2", "resource": "playas-server", "role": "Reader", "type": "msi"}
-{"name": "mysql-reader", "msi_rg": "mygroup_1", "rg": "mygroup_2", "resource": "poniard-logger", "role": "User Access Administrator", "type": "msi"}
-{"name": "mysql-reader", "msi_rg": "mygroup_1", "rg": "mygroup_3", "resource": "through-networking", "role": "Contributor", "type": "msi"}
-{"name": "nginx-finance", "msi_rg": "mygroup_3", "rg": "mygroup_2", "resource": "playas-server", "role": "Contributor", "type": "msi"}
-{"name": "nginx-finance", "msi_rg": "mygroup_3", "rg": "mygroup_2", "resource": "addends-web", "role": "Owner", "type": "msi"}
-{"name": "dev-owner", "msi_rg": "mygroup_3", "rg": "mygroup_3", "resource": "unpurse-server", "role": "Reader", "type": "msi"}
-{"name": "dev-owner", "msi_rg": "mygroup_3", "rg": "mygroup_1", "resource": "taipans-cache", "role": "User Access Administrator", "type": "msi"}
-{"name": "logging-contributor", "msi_rg": "mygroup_2", "rg": "mygroup_2", "resource": "capmint-mailer", "role": "Owner", "type": "msi"}
-{"name": "logging-contributor", "msi_rg": "mygroup_2", "rg": "mygroup_2", "resource": "eneugh-db", "role": "Owner", "type": "msi"}
+{"name": "redis-billing", "msi_rg": "DefaultResourceGroup-EUS", "rg": "azureappinsightss_group-9ed6", "resource": "renigsserver", "role": "Owner", "type": "msi"}
+{"name": "redis-billing", "msi_rg": "DefaultResourceGroup-EUS", "rg": "detect-lab-preset", "resource": "aurifex-billing", "role": "Owner", "type": "msi"}
+{"name": "logging-finance", "msi_rg": "multi-purpose", "rg": "container-lab_group-null_hyd", "resource": "sorners-directory", "role": "Reader", "type": "msi"}
+{"name": "mail-owner", "msi_rg": "multi-purpose", "rg": "detect-lab-preset", "resource": "aurifex-billing", "role": "Contributor", "type": "msi"}
+{"name": "mail-owner", "msi_rg": "multi-purpose", "rg": "azureappinsightss_group-9ed6", "resource": "renigsserver", "role": "User Access Administrator", "type": "msi"}
+{"name": "cache-svcadmin", "msi_rg": "TI", "rg": "container-lab_group-null_hyd", "resource": "sorners-directory", "role": "Contributor", "type": "msi"}
+{"name": "mail-finance", "msi_rg": "TI", "rg": "TI", "resource": "soosoo-backup", "role": "Owner", "type": "msi"}
+{"name": "mail-finance", "msi_rg": "TI", "rg": "multi-purpose", "resource": "squibs-billing", "role": "Owner", "type": "msi"}
+{"name": "jboss-contributor", "msi_rg": "ip-router", "rg": "DefaultResourceGroup-EUS", "resource": "whimble-func", "role": "Contributor", "type": "msi"}
+{"name": "monitoring-contributor", "msi_rg": "azureappinsightss_group-9ed6", "rg": "container-lab_group-null_hyd", "resource": "sorners-directory", "role": "User Access Administrator", "type": "msi"}
+{"name": "nginx-owner", "msi_rg": "detect-lab-preset", "rg": "NetworkWatcherRG", "resource": "ranere-db", "role": "Contributor", "type": "msi"}
+{"name": "nginx-contributor", "msi_rg": "detect-lab-preset", "rg": "detect-lab-preset", "resource": "moolvee-logger", "role": "Owner", "type": "msi"}
+{"name": "nginx-contributor", "msi_rg": "detect-lab-preset", "rg": "detect-lab-preset", "resource": "moolvee-logger", "role": "Contributor", "type": "msi"}
+{"name": "backup-reader", "msi_rg": "multi-purpose", "rg": "multi-purpose", "resource": "satara-compute", "role": "User Access Administrator", "type": "msi"}
