@@ -27,6 +27,7 @@ The following are required for Deceptizure to work:
   az login
   Connect-AzureAD
   ```
+- If you're using a Trail account or a new Azure account, you maybe encountering few issues. Register all providers using the guide here: https://github.com/mattlunzer/registerAzureResourceProviders
 
 ## What types of resources are created.
 The solution currently supports the following:
