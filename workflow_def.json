@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+  "actions": {
+      "Get_blob_content": {
+          "inputs": {
+              "host": {
+                  "connection": {
+                      "name": "@parameters('$connections')['azureblob']['connectionId']"
+                  }
+              },
+              "method": "get",
+              "path": "/datasets/default/files/@{encodeURIComponent(encodeURIComponent(uriPath(triggerBody()?['data'].url)))}/content",
+              "queries": {
+                  "inferContentType": true
+              }
+          },
+          "metadata": {
+              "JTJmZGV2cmVwb3J0cyUyZmRldmVsb3BtZW50cmVwb3J0LnBkZg==": ""
+          },
+          "runAfter": {},
+          "type": "ApiConnection"
+      },
+      "Send_an_email_(V2)": {
+          "inputs": {
+              "body": {
+                  "Attachments": [
+                      {
+                          "ContentBytes": "@{base64(body('Get_blob_content'))}",
+                          "Name": "Test"
+                      }
+                  ],
+                  "Body": "@triggerBody()?['LastModified']",
+                  "Subject": "Test",
+                  "To": "<>@gmail.com"
+              },
+              "host": {
+                  "connection": {
+                      "name": "@parameters('$connections')['office365']['connectionId']"
+                  }
+              },
+              "method": "post",
+              "path": "/v2/Mail"
+          },
+          "runAfter": {
+              "Get_blob_content": [
+                  "Succeeded"
+              ]
+          },
+          "type": "ApiConnection"
+      }
+  },
+  "contentVersion": "1.0.0.0",
+  "outputs": {},
+  "parameters": {
+      "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+      }
+  },
+  "triggers": {}
+}
