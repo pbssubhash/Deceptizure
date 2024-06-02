@@ -17,6 +17,16 @@ The following are required for Deceptizure to work:
 - Install the requirements for Python script using the following language: <br>
   `pip3 install -r requirements.txt`
 - Enable PowerShell (if disabled).
+- Install the following modules:
+  ```
+  Install-Module AzureAD
+  Install-Module Az
+  ```
+- Configure Azure CLI and Azure PowerShell using the following commands:
+  ```
+  az login
+  Connect-AzureAD
+  ```
 
 ## What types of resources are created.
 The solution currently supports the following:
